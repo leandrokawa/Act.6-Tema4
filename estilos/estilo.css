@@ -1,0 +1,180 @@
+/* Pon aquí el código CSS que necesites para aplicar los estilos necesarios */
+
+/*Ejercicio 1 */
+.act1 .borde-naranja{
+    position: relative;
+    left: 300px;
+}
+#caja-roja1-act1{
+    position: relative;
+    top: 95px;
+    left: 300px;
+}
+#borde-azul1-act1{
+    position: relative;
+    top:-20px
+}
+/*Fin de ejercicio1*/
+
+/*Ejercicio 2*/
+#div-act2{
+    position: relative;
+}
+#caja-roja1-act2{
+    position: absolute;
+    right: 0px;
+}
+#caja-naranja1-act2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#caja-roja2-act2{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+#caja-azul2-act2{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+/*Fin de ejercicio2*/
+
+/*Ejercicio 3*/
+#div-act3{
+    position: relative;
+}
+#caja-roja-act3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#caja-azul-act3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#caja-naranja-act3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#caja-marron1-act3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#caja-marron2-act3{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+}
+/*Fin de ejercicio3*/
+/*Ejercicio8*/
+.act8-contenedor{
+    position: relative;
+}
+.act8-contenedor .imagen-perros{
+    position: relative;
+    z-index: 2;
+}
+.act8-contenedor .imagen-gato{
+    position: relative;
+    z-index: 1;
+}
+.act8-contenedor .imagen-pajaro{
+    position: relative;
+    z-index: 0;
+
+}
+/*Fin de ejercicio8*/
+/*Ejercicio4*/
+#cabecera-act4{
+    border: solid 2px blue;
+}
+#menu-act4{
+    width: 200px;
+    float: left;
+    border:solid 2px blue;
+    height: 130px;
+}
+#cuerpo-act4{
+    border:solid 2px blue;
+    height: 130px;
+}
+#pie-act4{
+    border: solid 2px blue;
+    height: 30px;
+    clear: left;
+}
+/*Fin de ejercicio4*/
+/*Ejercicio 5*/
+#img-act5{
+    border: solid 2px red;
+    float: left;
+    margin: 10px;
+}
+#segundoparrafo-act5{
+    clear: left;
+}
+/*Fin de ejercicio*/
+/*Ejercicio 6*/
+#imagen-gato-act6{
+    border: dotted black ;
+    float: left;
+}
+#imagen-perro-act6{
+    border: orange 2px dotted;
+    float: right;
+}
+#Parrafo1-act6{
+    text-align: justify;
+}
+#Parrafo2-act6{
+    clear: both;
+}
+.act6{
+    width: 45%;
+}
+/*Fin de ejercicio6*/
+/* Quizá para algunas actividades debas modificar estilos estilos según corresponda */
+.contenedor-actividades .act7 .imagen-gato{
+    float: left;
+}
+
+.contenedor-actividades .act7 .imagen-perros{
+    float: right;
+}
+
+.contenedor-actividades .act8-contenedor{
+    position: relative;
+}
+
+.contenedor-actividades .act8 .imagen-perros{
+    float: right;
+    position: absolute;
+    left: 10px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-gato{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-pajaro{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act9 .act9-contenedor{
+    width: 500px;
+    border: 3px dotted gray;
+}
